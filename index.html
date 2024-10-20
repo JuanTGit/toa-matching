@@ -9,6 +9,32 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 		<script src="./js/main.js" defer></script>
 		<title>Card Game</title>
+		<style>
+			.game-board {
+			  display: flex;
+			  flex-wrap: wrap;
+			  justify-content: space-around;
+			  margin: 20px;
+			}
+		  
+			.card {
+			  width: 150px;  /* Set a fixed width for the card */
+			  height: 150px; /* Set height equal to width to make it a square */
+			  background-color: lightblue;
+			  margin: 10px;
+			  display: flex;
+			  align-items: center;
+			  justify-content: center;
+			  font-size: 2em;
+			  cursor: pointer;
+			  border-radius: 10px;
+			  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			}
+		  
+			.card:hover {
+			  background-color: #87cefa;  /* Slightly darker blue on hover */
+			}
+		  </style>
 	</head>
 	<body>
 
